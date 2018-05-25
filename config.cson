@@ -1,0 +1,43 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "299bb296-e0ca-4101-a0aa-280b8ff536cb"
+  "atom-latex":
+    build_after_save: false
+    latexmk_param: "-pdf -pvc -silent -outdir=build"
+    toolchain: "custom toolchain"
+  "autocomplete-bibtex":
+    bibtex: [
+      "~/Tex/eg2018-dc/main.bib"
+    ]
+  core:
+    disabledPackages: [
+      "ide-cpp"
+      "atom-ide-ui"
+      "atom-latex"
+      "structure-view"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontSize: 15
+  "exception-reporting":
+    userId: "efe8cc26-e38b-4aff-b734-c2c396a6cecf"
+  "ide-cpp": {}
+  "linter-clang":
+    executablePath: "/usr/local/Cellar/llvm/5.0.1/bin/clang++"
+  "linter-ui-default":
+    panelHeight: 72
+  "structure-view":
+    DoubleClickToFoldTreeView: false
+    ShowProperties: false
+    ShowVariables: false
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
+    defaultWidth: 250
+  welcome:
+    showOnStartup: false
