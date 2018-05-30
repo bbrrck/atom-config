@@ -1,0 +1,4 @@
+rad-syntax
+structure-view
+switch-header-source
+symbols-tree-view

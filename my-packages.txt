@@ -1,4 +1,3 @@
-README.md
 atom-beautify
 atom-ide-ui
 atom-latex
